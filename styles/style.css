@@ -79,6 +79,12 @@ body {
 .header__info__text {
   text-align: center;
 }
+.header__info__img {
+  height: 25vh;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 
 .main {
   width: 90%;
@@ -125,7 +131,7 @@ body {
   font-size: 1.2em;
 }
 .main__promotion__block__item__button {
-  background: #FFD600;
+  background: #ffd600;
   height: 6%;
   width: 40%;
   border-radius: 30px;
@@ -170,7 +176,7 @@ body {
   width: 70%;
   border-radius: 30px;
   padding-left: 5px;
-  background: #FFD600;
+  background: #ffd600;
 }
 .main__otzivi {
   display: flex;
@@ -224,7 +230,7 @@ body {
   height: 8%;
   width: 30%;
   border-radius: 30px;
-  background: #FFD600;
+  background: #ffd600;
   margin-top: 10px;
 }
 
